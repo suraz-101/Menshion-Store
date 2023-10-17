@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
    
     
 }
@@ -110,10 +110,10 @@
 {
     padding: 150px 100px;
     text-align: center;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     position: relative;
     font-family: monospace;
-    /* height: 80vh; */
+    background-color: #F1EFEF;
     
     /* line-height: 4rem; */
 }
