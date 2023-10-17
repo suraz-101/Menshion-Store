@@ -1,0 +1,168 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.position1
+{
+    padding: 0px 100px;
+}
+
+
+
+.main .header 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+   
+    
+}
+
+.main .header .logo
+{
+    width: 10%;
+   
+}
+
+.main .header .logo img{
+    height: 50px;
+  
+}
+
+.main .header .navbar
+{
+
+    width: 50%;
+  
+
+}
+
+.main .header .navbar a{
+    text-decoration: none;
+    color: gray;
+    z-index: 0;
+    position: relative;
+    font-family:monospace
+   
+}
+
+.main .header .navbar a::after{
+    position: absolute;
+   bottom: 0;
+   left: 0;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    /* z-index: 2; */
+
+}
+
+.main .header .navbar .active::after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     content: '';
+     width: 40%;
+     height: 2px;
+     background-color: black;
+
+}
+
+.main .header .navbar a:hover,.main .header .navbar .active{
+    color:black;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+
+.main .header .navbar a:hover::after{
+    
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     content: '';
+     width: 40%;
+     height: 2px;
+     background-color: black;
+     /* z-index: 2; */
+    
+}
+
+.main .header .hamburger
+{
+    display: none;
+}
+.main .header .buttons
+{
+    display: none;
+}
+
+.main .home 
+{
+    padding: 150px 100px;
+    text-align: center;
+    border: 1px solid gray;
+    position: relative;
+    font-family: monospace;
+    /* height: 80vh; */
+    
+    /* line-height: 4rem; */
+}
+.main .home h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* color: gray; */
+}
+
+.main .home .backgroundimage
+{
+    height: 150px;  
+
+}
+
+.main .home .backgroundimage img{
+    height: 100%;
+}
+
+.main .home #image1
+{
+    position: absolute;
+    transform: rotate(45deg);
+    top: 50%;
+
+}
+.main .home #image2
+{
+    position: absolute;
+    transform: rotate(270deg);
+    top: 30%;
+    right: 0px;
+
+
+}
+.main .home #image3
+{
+    position: absolute;
+    transform: rotate(300deg);
+    top: 10%;
+    left: 500px;
+}
+.main .home #image3
+{
+    position: absolute;
+    transform: rotate(20deg);
+    bottom: 10%;
+    left: 500px;
+}
+
+
+
