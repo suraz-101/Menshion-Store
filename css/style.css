@@ -5,6 +5,8 @@
     box-sizing: border-box;
 
 }
+
+
 .position1
 {
     padding: 0px 100px;
@@ -22,6 +24,67 @@
    
     
 }
+.main .header2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .header2 .icons 
+{
+    width:9%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+
+    
+    
+}
+
+.heading 
+{
+    font-family: monospace;
+   display: flex;
+   justify-content: center;
+   padding: 20PX 0;
+}
+
+.heading::before{
+    content: '';
+    position: relative;
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    top: 20px;
+    left: -10px;
+}
+
+.heading::after{
+    content: '';
+    position: relative;
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    top: 20px;
+    right: -10px;
+}
+
+
+
+.main .header2 .icons  a{
+    text-decoration:  none;
+    color: white;
+  background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 25px;
+   width: 25px;
+    border-radius: 50%;
+   
+}
+
 
 .main .header .logo
 {
@@ -163,6 +226,52 @@
     bottom: 10%;
     left: 500px;
 }
+.main .newarrivals .cards-wrapper .cards
+{
+    border: 1px solid white;
+}
+.main .newarrivals .cards-wrapper .cards .card{
+    border: 1px solid white;
+}
+.main .newarrivals .cards-wrapper .cards .card .image-section
+{
+    height: 350px;
+    position: relative;
+    /* width: 100%; */
+    /* width: 80; */
+}
+.main .newarrivals .cards-wrapper .cards .card .image-section .icons{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.main .newarrivals .cards-wrapper .cards .card .image-section .icons a{
+    text-decoration: none;
+    color: white;
+}
+.main .newarrivals .cards-wrapper .cards .card .content
+{
+    text-align: center;
+}
+.main .newarrivals .cards-wrapper .cards .card .content a{
+    text-decoration: none;
+    color: #363636;
+    text-align: center;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.main .newarrivals .cards-wrapper .cards .card .content p{
+    color: gray;
+    font-size: 12px;
+}
 
-
+.main .newarrivals .cards-wrapper .cards .card .image-section img
+{
+    height: 100%;
+    width: 100%;
+   border-radius: 3px;
+   
+}
 
