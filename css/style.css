@@ -3,7 +3,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+   
+}
+body{
+    scroll-behavior: smooth;
 }
 
 
@@ -309,6 +312,39 @@
    border-radius: 3px;
    
 }
+.main .about{
+    border-bottom: 1px solid #F1EFEF;
+}
+.main .about  .image-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .about  .image-section img{
+    height: 300px;
+    width: 80%;
+    /* padding: 20px; */
+    box-shadow: 2px 2px 20px lightgray;
+}
+
+.heading5
+{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    padding: 10px 0;
+}
+
+p
+{
+    padding: 0 10px;
+    font-family: monospace;
+    line-height: 2rem;
+}
+
 
 
 
